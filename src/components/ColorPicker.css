@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(188, 130, 238);
+}
+button{
+    position: absolute;
+    bottom: 30%;
+    left: 46%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    border: 1px transparent;
+    padding: 1%;
+    background-color: rgb(15, 199, 85);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 40%;
+    left: 21%;
+}
+
+li{
+    margin: 1% 1% 1% 1%;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.527);
+}
+
+.board{
+    background-color: #ffc0cb;
+    width: 800px;
+    height: 430px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.651);
+    border-radius: 15px;
+}
